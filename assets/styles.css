@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(241, 196, 112);
+}
+
+.root {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  background-color: rgb(70, 69, 69);
+  color: #fff;
+  padding: 4%;
+}
+
+.title-second {
+  font-weight: 300;
+}
+
+.line {
+  border: 2px solid rgb(221, 113, 41);
+  width: 50px;
+  margin-top: 15px;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-name {
+  margin-left: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-paragraph {
+  padding: 20px;
+  margin: 25px 40px;
+}
+
+.text {
+  line-height: 25px;
+}
+
+.first-letter {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.break {
+  border: 1px solid white;
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.time {
+  font-weight: 700;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-img {
+  margin-right: 5px;
+}
+
+.comment-number {
+  margin-right: 20px;
+  font-weight: 100;
+  color: gray;
+}
